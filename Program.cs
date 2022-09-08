@@ -1,15 +1,16 @@
 ﻿// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
-System.Console.WriteLine("Введите пятизначное число: ");
-//int num = Convert.ToInt32(Console.ReadLine());
-string num = Convert.ToString(Console.ReadLine());
+// Решение через строку
+// System.Console.WriteLine("Введите пятизначное число: ");
 
-if(num[0]== num[4] && num[1]==num[3]){
-    System.Console.WriteLine("Да");
-}
-else{
-    System.Console.WriteLine("Нет");
-}
+// string num = Convert.ToString(Console.ReadLine());
+
+// if(num[0]== num[4] && num[1]==num[3]){
+//     System.Console.WriteLine("Да");
+// }
+// else{
+//     System.Console.WriteLine("Нет");
+// }
 
 
 
@@ -35,5 +36,14 @@ else{
 // double result = Math.Sqrt(Math.Pow((x2-x1),2)+Math.Pow((y2-y1),2)+Math.Pow((z2-z1),2));
 // System.Console.WriteLine(result);
 
+
+//Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+// System.Console.WriteLine("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// for (int i = 1; i <= num; i++){
+//     Console.Write($"{Math.Pow(i,3)} ");
+// }
 
 
